@@ -1,64 +1,52 @@
-# <p align="center" id="title">Herbivoria</p>
-# 🚀 <a href="https://market-git-main-ahmeddoban.vercel.app/" > Demo </a>
+# Burgerama
+# 🚀 Demo
 
-<p align="center"><img src="https://github.com/AhmedDoban/Market/assets/73547094/742d0db7-77eb-46f0-aaf3-91f1609a49b6"></p>
+Welcome to the "Burgerama" project, a comprehensive React JS application designed for a burger restaurant. This project features several key pages:
 
-<p id="description" align="center">This is a new full response project with react JS "Market-app: Herbivoria", containing these pages</p>
+## Project Screenshots
+
+### 🧐 Features
+
+Here are some standout features of the application:
+
+**Authentication Page** includes:
+- Home page
+- Contact Us
+- About Us
+- Menu
+- Food Details
+- 404 Not Found page for inaccessible routes
+- Cart page
+
+**Guest Page** includes:
+- Login
+- Registration
+- 404 Not Found page for inaccessible routes
+
+### Implemented Functions
+- Scroll to the top functionality
+- Responsive navigation menu for mobile
+- Add items to the cart from any page
+- Increment and decrement product quantities in the cart
+- Remove items from the cart
+- Filter options on the menu page
+- Display the next 9 products or revert to the previous 9 on the menu page
+- Fake login authentication: If "Remember Me" is selected, login details are saved in local storage, allowing automatic login on future visits. If not selected, details are stored in session storage.
+
+### 🛠️ Installation Steps
+
+1. **Create a New Project**
+   ```bash
+   npx create-react-app Burgerama
 
 
-
-<h2>Project Screenshots</h2>
-
-<img src="https://github.com/AhmedDoban/Market/assets/73547094/17730322-8104-48eb-8dc0-08b4b35e797c" alt="project-screenshot" >
-
-<img src="https://github.com/AhmedDoban/Market/assets/73547094/1646d522-09e1-4fa4-9ece-8ab4f8ba0965" alt="project-screenshot" >
-
-<img src="https://github.com/AhmedDoban/Market/assets/73547094/8201d5a4-ec76-42c3-9676-c4b1bad5f29c" alt="project-screenshot" >
-
-# 🧐 Features
-
-Here're some of the project's best features
-
-<details open >
-<summary>The first page "auth" includes</summary>
-
-    - home page
-    - Contact us.
-    - About us.
-    - Menu.
-    - Food details.
-    - Not found page when you route to somewhere I didn't give you access to.
-    - cart page
-
-</details >
-<details open>
-<summary> The second-page "guest" includes</summary>
-
-    - login
-    - register
-    - Not found page when you route to somewhere I didn't give you.
-</details >
-
-<details >
-<summary> function I have implemented</summary>
-
-    - Scroll to the top.
-    - nav menu mobile response.
-    - Add to cart from any page.
-    - Increment product you already added.
-    - Decrement product you already added.
-    - Remove the product from the cart.
-    - Filter in the menu page
-    - Show the next 9 products or go back to 9 products on the menu page.
-    - Fake login authentication If you click on the remember me, it will be saved in the local storage, and even if you close your browser, it will login again when you visit the site. If you don't click on it, it will be saved in the session storage.
-</details >
 
 <h2>🛠️ Installation Steps</h2>
 
-<p>1. Create a Project First</p>
-
+1. **Create a New React App:**
+  
 ```
-npx create-react-app Herbivoria
+npx create-react-app Burgerama
 ```
 
 <p>2. install all dependencys</p>
